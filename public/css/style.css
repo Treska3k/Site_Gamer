@@ -1,0 +1,170 @@
+body {
+  background: #1f1f1f;
+  color: #ddd;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: sans-serif;
+}
+a {
+  text-decoration: none;
+}
+main {
+  flex: 1;
+}
+.navbar {
+  background: #000 !important;
+  border-radius: 0 0 8px 8px;
+}
+.navbar .navbar-brand,
+.navbar .nav-link {
+  color: #aaa !important;
+}
+.navbar .nav-link:hover {
+  color: #fff !important;
+}
+.main-content {
+  background: #2e2e2e;
+  color: #ccc;
+  padding: 2rem;
+  border-radius: 0 0 8px 8px;
+  margin-top: -1rem;
+}
+.card,
+.alert,
+.table {
+  background: #3a3a3a !important;
+  border-color: #444 !important;
+}
+.form-control {
+  background: #4a4a4a;
+  border: 1px solid #555;
+  color: #eee;
+}
+.form-control:focus {
+  border-color: #777;
+  color: #fff;
+  box-shadow: none;
+}
+footer {
+  background: #000;
+  text-align: center;
+  color: #ccc;
+  padding: 1rem 0;
+  border-radius: 8px 8px 0 0;
+}
+.hero {
+  background:
+    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url('/SiteGamer/public/imgs/hero-bg.jpg') no-repeat center/cover;
+  color: #fff;
+  padding: 6rem 0;
+  text-align: center;
+}
+.hero h1 {
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.hero p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+.hero .btn-hero {
+  display: inline-block;
+  padding: 1rem 2rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 0.3rem;
+  background-color: #0d6efd;
+  color: #fff;
+  border: 2px solid transparent;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s;
+}
+.hero .btn-hero:hover {
+  background-color: #0b5ed7;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.4);
+}
+.features {
+  background:
+    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url('/SiteGamer/public/imgs/hero-bg.jpg') no-repeat center/cover;
+  background-size: cover;
+  padding: 4rem 0;
+}
+.feature-card {
+  background: #2e2e2e;
+  border: none;
+  border-radius: 0.5rem;
+  transition: transform 0.2s, box-shadow 0.2s;
+  height: 100%;
+}
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+}
+.feature-card .bi {
+  color: #0d6efd;
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+.feature-card h5,
+.feature-card p {
+  color: #fff !important;
+}
+.table-dark thead th {
+  background-color: #212529;
+  color: #fff;
+  border-bottom: 2px solid #495057;
+  vertical-align: middle;
+  padding: 1rem 0.75rem;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  letter-spacing: 0.03em;
+}
+.table-dark tbody tr {
+  border-bottom: 1px solid #343a40;
+  transition: background-color 0.2s;
+}
+.table-dark tbody tr:nth-child(odd) {
+  background-color: rgba(255,255,255,0.05);
+}
+.table-dark tbody tr:hover {
+  background-color: rgba(255,255,255,0.1);
+}
+.table-dark tbody td {
+  color: #ddd;
+  vertical-align: middle;
+  padding: 0.75rem;
+  font-size: 0.9rem;
+}
+.table-dark.table-bordered th,
+.table-dark.table-bordered td,
+.table-bordered.border-white th,
+.table-bordered.border-white td {
+  border-color: #fff !important;
+}
+.page-hero {
+  background:
+    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url('/SiteGamer/public/imgs/bg-list.jpg') no-repeat center/cover;
+  background-size: cover;
+  padding: 4rem 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+.destaques {
+  background-color: #000 !important;
+  background-image:
+    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url('/SiteGamer/public/imgs/hero-bg.jpg') !important;
+  background-repeat: no-repeat !important;
+  background-position: center center !important;
+  background-size: cover !important;
+}
+  
